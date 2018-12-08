@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		71B5B3EE21BB402E00AD2E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B3ED21BB402E00AD2E8D /* AppDelegate.swift */; };
-		71B5B3F021BB402E00AD2E8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B3EF21BB402E00AD2E8D /* ViewController.swift */; };
+		71B5B3F021BB402E00AD2E8D /* MainMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B3EF21BB402E00AD2E8D /* MainMusicViewController.swift */; };
 		71B5B3F321BB402E00AD2E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B5B3F121BB402E00AD2E8D /* Main.storyboard */; };
 		71B5B3F521BB403000AD2E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B5B3F421BB403000AD2E8D /* Assets.xcassets */; };
 		71B5B3F821BB403000AD2E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B5B3F621BB403000AD2E8D /* LaunchScreen.storyboard */; };
 		71B5B40321BB403000AD2E8D /* RunWithMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B40221BB403000AD2E8D /* RunWithMusicTests.swift */; };
 		71B5B40E21BB403000AD2E8D /* RunWithMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B40D21BB403000AD2E8D /* RunWithMusicUITests.swift */; };
+		71B5B42021BB419B00AD2E8D /* MusicPlayerTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B41F21BB419B00AD2E8D /* MusicPlayerTransitionAnimation.swift */; };
+		71B5B42321BB43DE00AD2E8D /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B42221BB43DE00AD2E8D /* Music.swift */; };
+		71B5B42521BB441F00AD2E8D /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B42421BB441F00AD2E8D /* AudioPlayer.swift */; };
+		71B5B42921BB476F00AD2E8D /* AnimatedTransitioning .swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B42821BB476F00AD2E8D /* AnimatedTransitioning .swift */; };
+		71B5B42C21BB47B100AD2E8D /* ARNTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B42B21BB47B100AD2E8D /* ARNTransitionAnimator.swift */; };
+		71B5B43021BB47C200AD2E8D /* InteractiveTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B42F21BB47C200AD2E8D /* InteractiveTransitioning.swift */; };
+		71B5B43221BB47CD00AD2E8D /* TransitionAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B43121BB47CC00AD2E8D /* TransitionAnimatable.swift */; };
+		71B5B43421BB47D400AD2E8D /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B43321BB47D400AD2E8D /* TransitionAnimator.swift */; };
+		71B5B43621BB47DC00AD2E8D /* TransitionGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B43521BB47DC00AD2E8D /* TransitionGestureHandler.swift */; };
+		71B5B43821BB6A9400AD2E8D /* DetailMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B43721BB6A9400AD2E8D /* DetailMusicViewController.swift */; };
+		71B5B43A21BB6ADC00AD2E8D /* MusicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B43921BB6ADC00AD2E8D /* MusicListViewController.swift */; };
+		71B5B43C21BB6B5900AD2E8D /* MusicListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B43B21BB6B5900AD2E8D /* MusicListTableViewCell.swift */; };
+		71B5B43F21BB71A900AD2E8D /* 白昼之月.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71B5B43E21BB71A900AD2E8D /* 白昼之月.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +49,7 @@
 /* Begin PBXFileReference section */
 		71B5B3EA21BB402E00AD2E8D /* RunWithMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunWithMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B5B3ED21BB402E00AD2E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71B5B3EF21BB402E00AD2E8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71B5B3EF21BB402E00AD2E8D /* MainMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMusicViewController.swift; sourceTree = "<group>"; };
 		71B5B3F221BB402E00AD2E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71B5B3F421BB403000AD2E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B5B3F721BB403000AD2E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,20 @@
 		71B5B40921BB403000AD2E8D /* RunWithMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunWithMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B5B40D21BB403000AD2E8D /* RunWithMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunWithMusicUITests.swift; sourceTree = "<group>"; };
 		71B5B40F21BB403000AD2E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B5B41F21BB419B00AD2E8D /* MusicPlayerTransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayerTransitionAnimation.swift; sourceTree = "<group>"; };
+		71B5B42221BB43DE00AD2E8D /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		71B5B42421BB441F00AD2E8D /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		71B5B42821BB476F00AD2E8D /* AnimatedTransitioning .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AnimatedTransitioning .swift"; path = "Source/AnimatedTransitioning .swift"; sourceTree = SOURCE_ROOT; };
+		71B5B42A21BB47A900AD2E8D /* ARNTransitionAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ARNTransitionAnimator.h; path = Source/ARNTransitionAnimator.h; sourceTree = SOURCE_ROOT; };
+		71B5B42B21BB47B100AD2E8D /* ARNTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARNTransitionAnimator.swift; path = Source/ARNTransitionAnimator.swift; sourceTree = SOURCE_ROOT; };
+		71B5B42F21BB47C200AD2E8D /* InteractiveTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InteractiveTransitioning.swift; path = Source/InteractiveTransitioning.swift; sourceTree = SOURCE_ROOT; };
+		71B5B43121BB47CC00AD2E8D /* TransitionAnimatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionAnimatable.swift; path = Source/TransitionAnimatable.swift; sourceTree = SOURCE_ROOT; };
+		71B5B43321BB47D400AD2E8D /* TransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = Source/TransitionAnimator.swift; sourceTree = SOURCE_ROOT; };
+		71B5B43521BB47DC00AD2E8D /* TransitionGestureHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionGestureHandler.swift; path = Source/TransitionGestureHandler.swift; sourceTree = SOURCE_ROOT; };
+		71B5B43721BB6A9400AD2E8D /* DetailMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMusicViewController.swift; sourceTree = "<group>"; };
+		71B5B43921BB6ADC00AD2E8D /* MusicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewController.swift; sourceTree = "<group>"; };
+		71B5B43B21BB6B5900AD2E8D /* MusicListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListTableViewCell.swift; sourceTree = "<group>"; };
+		71B5B43E21BB71A900AD2E8D /* 白昼之月.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "白昼之月.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +124,19 @@
 		71B5B3EC21BB402E00AD2E8D /* RunWithMusic */ = {
 			isa = PBXGroup;
 			children = (
+				71B5B43D21BB717800AD2E8D /* mymusic */,
+				71B5B42721BB475B00AD2E8D /* Source */,
+				71B5B42121BB43B000AD2E8D /* Model */,
 				71B5B3ED21BB402E00AD2E8D /* AppDelegate.swift */,
-				71B5B3EF21BB402E00AD2E8D /* ViewController.swift */,
+				71B5B41F21BB419B00AD2E8D /* MusicPlayerTransitionAnimation.swift */,
+				71B5B3EF21BB402E00AD2E8D /* MainMusicViewController.swift */,
 				71B5B3F121BB402E00AD2E8D /* Main.storyboard */,
 				71B5B3F421BB403000AD2E8D /* Assets.xcassets */,
 				71B5B3F621BB403000AD2E8D /* LaunchScreen.storyboard */,
 				71B5B3F921BB403000AD2E8D /* Info.plist */,
+				71B5B43721BB6A9400AD2E8D /* DetailMusicViewController.swift */,
+				71B5B43921BB6ADC00AD2E8D /* MusicListViewController.swift */,
+				71B5B43B21BB6B5900AD2E8D /* MusicListTableViewCell.swift */,
 			);
 			path = RunWithMusic;
 			sourceTree = "<group>";
@@ -123,6 +157,37 @@
 				71B5B40F21BB403000AD2E8D /* Info.plist */,
 			);
 			path = RunWithMusicUITests;
+			sourceTree = "<group>";
+		};
+		71B5B42121BB43B000AD2E8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71B5B42221BB43DE00AD2E8D /* Music.swift */,
+				71B5B42421BB441F00AD2E8D /* AudioPlayer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71B5B42721BB475B00AD2E8D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				71B5B42821BB476F00AD2E8D /* AnimatedTransitioning .swift */,
+				71B5B42A21BB47A900AD2E8D /* ARNTransitionAnimator.h */,
+				71B5B42B21BB47B100AD2E8D /* ARNTransitionAnimator.swift */,
+				71B5B42F21BB47C200AD2E8D /* InteractiveTransitioning.swift */,
+				71B5B43121BB47CC00AD2E8D /* TransitionAnimatable.swift */,
+				71B5B43321BB47D400AD2E8D /* TransitionAnimator.swift */,
+				71B5B43521BB47DC00AD2E8D /* TransitionGestureHandler.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		71B5B43D21BB717800AD2E8D /* mymusic */ = {
+			isa = PBXGroup;
+			children = (
+				71B5B43E21BB71A900AD2E8D /* 白昼之月.mp3 */,
+			);
+			path = mymusic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +296,7 @@
 			files = (
 				71B5B3F821BB403000AD2E8D /* LaunchScreen.storyboard in Resources */,
 				71B5B3F521BB403000AD2E8D /* Assets.xcassets in Resources */,
+				71B5B43F21BB71A900AD2E8D /* 白昼之月.mp3 in Resources */,
 				71B5B3F321BB402E00AD2E8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +322,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71B5B3F021BB402E00AD2E8D /* ViewController.swift in Sources */,
+				71B5B43621BB47DC00AD2E8D /* TransitionGestureHandler.swift in Sources */,
+				71B5B43021BB47C200AD2E8D /* InteractiveTransitioning.swift in Sources */,
+				71B5B42021BB419B00AD2E8D /* MusicPlayerTransitionAnimation.swift in Sources */,
+				71B5B3F021BB402E00AD2E8D /* MainMusicViewController.swift in Sources */,
+				71B5B42C21BB47B100AD2E8D /* ARNTransitionAnimator.swift in Sources */,
+				71B5B43821BB6A9400AD2E8D /* DetailMusicViewController.swift in Sources */,
+				71B5B42521BB441F00AD2E8D /* AudioPlayer.swift in Sources */,
+				71B5B42921BB476F00AD2E8D /* AnimatedTransitioning .swift in Sources */,
+				71B5B43221BB47CD00AD2E8D /* TransitionAnimatable.swift in Sources */,
+				71B5B43A21BB6ADC00AD2E8D /* MusicListViewController.swift in Sources */,
+				71B5B43421BB47D400AD2E8D /* TransitionAnimator.swift in Sources */,
+				71B5B43C21BB6B5900AD2E8D /* MusicListTableViewCell.swift in Sources */,
 				71B5B3EE21BB402E00AD2E8D /* AppDelegate.swift in Sources */,
+				71B5B42321BB43DE00AD2E8D /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +518,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "smz1994118-icloud.com.RunWithMusic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -457,7 +535,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "smz1994118-icloud.com.RunWithMusic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
