@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0854155A21BDE56A00825F0D /* RingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0854155921BDE56A00825F0D /* RingBuffer.swift */; };
+		0854155C21BDE5CE00825F0D /* RandomForestAccel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0854155B21BDE5CE00825F0D /* RandomForestAccel.mlmodel */; };
+		3BF61E6A21BCC08000A432F2 /* RunningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF61E6921BCC08000A432F2 /* RunningViewController.swift */; };
 		71B5B3EE21BB402E00AD2E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B3ED21BB402E00AD2E8D /* AppDelegate.swift */; };
 		71B5B3F021BB402E00AD2E8D /* MainMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B3EF21BB402E00AD2E8D /* MainMusicViewController.swift */; };
-		71B5B3F321BB402E00AD2E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B5B3F121BB402E00AD2E8D /* Main.storyboard */; };
-		71B5B3F521BB403000AD2E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B5B3F421BB403000AD2E8D /* Assets.xcassets */; };
 		71B5B3F821BB403000AD2E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B5B3F621BB403000AD2E8D /* LaunchScreen.storyboard */; };
 		71B5B40321BB403000AD2E8D /* RunWithMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B40221BB403000AD2E8D /* RunWithMusicTests.swift */; };
 		71B5B40E21BB403000AD2E8D /* RunWithMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B40D21BB403000AD2E8D /* RunWithMusicUITests.swift */; };
@@ -26,7 +27,11 @@
 		71B5B43821BB6A9400AD2E8D /* DetailMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B43721BB6A9400AD2E8D /* DetailMusicViewController.swift */; };
 		71B5B43A21BB6ADC00AD2E8D /* MusicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B43921BB6ADC00AD2E8D /* MusicListViewController.swift */; };
 		71B5B43C21BB6B5900AD2E8D /* MusicListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5B43B21BB6B5900AD2E8D /* MusicListTableViewCell.swift */; };
-		71B5B43F21BB71A900AD2E8D /* 白昼之月.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71B5B43E21BB71A900AD2E8D /* 白昼之月.mp3 */; };
+		71B5B47D21BC5F9B00AD2E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B5B47C21BC5F9B00AD2E8D /* Main.storyboard */; };
+		71B5B47E21BC636500AD2E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B5B3F421BB403000AD2E8D /* Assets.xcassets */; };
+		71B5B48321BC78B000AD2E8D /* mymusic in Resources */ = {isa = PBXBuildFile; fileRef = 71B5B48221BC78AF00AD2E8D /* mymusic */; };
+		71B5B48521BDE1AE00AD2E8D /* timg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71B5B48421BDE1AE00AD2E8D /* timg.jpg */; };
+		71B5B48721BDE1B600AD2E8D /* timg-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71B5B48621BDE1B600AD2E8D /* timg-1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0854155921BDE56A00825F0D /* RingBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingBuffer.swift; sourceTree = "<group>"; };
+		0854155B21BDE5CE00825F0D /* RandomForestAccel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RandomForestAccel.mlmodel; sourceTree = "<group>"; };
+		3BF61E6921BCC08000A432F2 /* RunningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningViewController.swift; sourceTree = "<group>"; };
 		71B5B3EA21BB402E00AD2E8D /* RunWithMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunWithMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B5B3ED21BB402E00AD2E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71B5B3EF21BB402E00AD2E8D /* MainMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMusicViewController.swift; sourceTree = "<group>"; };
-		71B5B3F221BB402E00AD2E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71B5B3F421BB403000AD2E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B5B3F721BB403000AD2E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71B5B3F921BB403000AD2E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,7 +80,10 @@
 		71B5B43721BB6A9400AD2E8D /* DetailMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMusicViewController.swift; sourceTree = "<group>"; };
 		71B5B43921BB6ADC00AD2E8D /* MusicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewController.swift; sourceTree = "<group>"; };
 		71B5B43B21BB6B5900AD2E8D /* MusicListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListTableViewCell.swift; sourceTree = "<group>"; };
-		71B5B43E21BB71A900AD2E8D /* 白昼之月.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "白昼之月.mp3"; sourceTree = "<group>"; };
+		71B5B47C21BC5F9B00AD2E8D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		71B5B48221BC78AF00AD2E8D /* mymusic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mymusic; sourceTree = "<group>"; };
+		71B5B48421BDE1AE00AD2E8D /* timg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpg; sourceTree = "<group>"; };
+		71B5B48621BDE1B600AD2E8D /* timg-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,13 +134,18 @@
 		71B5B3EC21BB402E00AD2E8D /* RunWithMusic */ = {
 			isa = PBXGroup;
 			children = (
-				71B5B43D21BB717800AD2E8D /* mymusic */,
+				71B5B48421BDE1AE00AD2E8D /* timg.jpg */,
+				71B5B48621BDE1B600AD2E8D /* timg-1.jpg */,
+				71B5B48221BC78AF00AD2E8D /* mymusic */,
 				71B5B42721BB475B00AD2E8D /* Source */,
 				71B5B42121BB43B000AD2E8D /* Model */,
 				71B5B3ED21BB402E00AD2E8D /* AppDelegate.swift */,
 				71B5B41F21BB419B00AD2E8D /* MusicPlayerTransitionAnimation.swift */,
+				3BF61E6921BCC08000A432F2 /* RunningViewController.swift */,
 				71B5B3EF21BB402E00AD2E8D /* MainMusicViewController.swift */,
-				71B5B3F121BB402E00AD2E8D /* Main.storyboard */,
+				0854155B21BDE5CE00825F0D /* RandomForestAccel.mlmodel */,
+				0854155921BDE56A00825F0D /* RingBuffer.swift */,
+				71B5B47C21BC5F9B00AD2E8D /* Main.storyboard */,
 				71B5B3F421BB403000AD2E8D /* Assets.xcassets */,
 				71B5B3F621BB403000AD2E8D /* LaunchScreen.storyboard */,
 				71B5B3F921BB403000AD2E8D /* Info.plist */,
@@ -180,14 +195,6 @@
 				71B5B43521BB47DC00AD2E8D /* TransitionGestureHandler.swift */,
 			);
 			path = Source;
-			sourceTree = "<group>";
-		};
-		71B5B43D21BB717800AD2E8D /* mymusic */ = {
-			isa = PBXGroup;
-			children = (
-				71B5B43E21BB71A900AD2E8D /* 白昼之月.mp3 */,
-			);
-			path = mymusic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +265,11 @@
 				TargetAttributes = {
 					71B5B3E921BB402E00AD2E8D = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					71B5B3FD21BB403000AD2E8D = {
 						CreatedOnToolsVersion = 10.0;
@@ -294,10 +306,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B5B47E21BC636500AD2E8D /* Assets.xcassets in Resources */,
+				71B5B48521BDE1AE00AD2E8D /* timg.jpg in Resources */,
 				71B5B3F821BB403000AD2E8D /* LaunchScreen.storyboard in Resources */,
-				71B5B3F521BB403000AD2E8D /* Assets.xcassets in Resources */,
-				71B5B43F21BB71A900AD2E8D /* 白昼之月.mp3 in Resources */,
-				71B5B3F321BB402E00AD2E8D /* Main.storyboard in Resources */,
+				71B5B48321BC78B000AD2E8D /* mymusic in Resources */,
+				71B5B48721BDE1B600AD2E8D /* timg-1.jpg in Resources */,
+				71B5B47D21BC5F9B00AD2E8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,12 +337,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				71B5B43621BB47DC00AD2E8D /* TransitionGestureHandler.swift in Sources */,
+				3BF61E6A21BCC08000A432F2 /* RunningViewController.swift in Sources */,
 				71B5B43021BB47C200AD2E8D /* InteractiveTransitioning.swift in Sources */,
 				71B5B42021BB419B00AD2E8D /* MusicPlayerTransitionAnimation.swift in Sources */,
 				71B5B3F021BB402E00AD2E8D /* MainMusicViewController.swift in Sources */,
+				0854155A21BDE56A00825F0D /* RingBuffer.swift in Sources */,
 				71B5B42C21BB47B100AD2E8D /* ARNTransitionAnimator.swift in Sources */,
 				71B5B43821BB6A9400AD2E8D /* DetailMusicViewController.swift in Sources */,
 				71B5B42521BB441F00AD2E8D /* AudioPlayer.swift in Sources */,
+				0854155C21BDE5CE00825F0D /* RandomForestAccel.mlmodel in Sources */,
 				71B5B42921BB476F00AD2E8D /* AnimatedTransitioning .swift in Sources */,
 				71B5B43221BB47CD00AD2E8D /* TransitionAnimatable.swift in Sources */,
 				71B5B43A21BB6ADC00AD2E8D /* MusicListViewController.swift in Sources */,
@@ -371,14 +388,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		71B5B3F121BB402E00AD2E8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71B5B3F221BB402E00AD2E8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		71B5B3F621BB403000AD2E8D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -511,14 +520,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7XNBYD64Q;
 				INFOPLIST_FILE = RunWithMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "smz1994118-icloud.com.RunWithMusic";
+				PRODUCT_BUNDLE_IDENTIFIER = "jiayinl-smu.edu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -528,14 +538,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7XNBYD64Q;
 				INFOPLIST_FILE = RunWithMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "smz1994118-icloud.com.RunWithMusic";
+				PRODUCT_BUNDLE_IDENTIFIER = "jiayinl-smu.edu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -41,7 +41,6 @@ class MusicListTableViewCell: UITableViewCell {
             }
         }
         self.activeImg.isHidden=model.isActive ?false : true
-        
     }
 }
 

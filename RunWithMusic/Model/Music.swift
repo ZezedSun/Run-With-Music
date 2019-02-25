@@ -45,18 +45,18 @@ class Music: NSObject {
                     
                     for j in avURLAsset.metadata(forFormat: i) {
                         //歌曲名
-                        if j.commonKey!.rawValue == "title"{
+                        if j.commonKey == "title"{
                             musicModel.musicName = j.value as? String
                             
                         }//封面图片
-                        if j.commonKey!.rawValue == "artwork"{
+                        if j.commonKey == "artwork"{
                             musicModel.musicimg=j.value as? Data// 这里是个坑坑T T
                         }//专辑名
-                        if j.commonKey!.rawValue == "albumName"{
+                        if j.commonKey == "albumName"{
                             musicModel.musicAlbum=j.value as? String
                         }
                         //歌手
-                        if j.commonKey!.rawValue == "artist"{
+                        if j.commonKey == "artist"{
                             musicModel.musicAuthor=j.value as? String
                         }
                     }
